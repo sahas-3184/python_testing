@@ -1,0 +1,105 @@
+[
+    {
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/api/test",
+        "payload": null,
+        "status_code": 200,
+        "response_body": {
+            "message": "This is a GET request",
+            "params": {}
+        },
+        "response_time": 12.991000000000001
+    },
+    {
+        "method": "POST",
+        "url": "http://127.0.0.1:5000/api/test",
+        "payload": {
+            "key1": "value1"
+        },
+        "status_code": 201,
+        "response_body": {
+            "data": {
+                "key1": "value1"
+            },
+            "message": "This is a POST request"
+        },
+        "response_time": 1.727
+    },
+    {
+        "method": "POST",
+        "url": "http://127.0.0.1:5000/api/test",
+        "payload": {
+            "key1": "value1"
+        },
+        "status_code": 201,
+        "response_body": {
+            "data": {
+                "key1": "value1"
+            },
+            "message": "This is a POST request"
+        },
+        "response_time": 1.217
+    },
+    {
+        "method": "POST",
+        "url": "http://127.0.0.1:5000/api/test",
+        "payload": {
+            "key1": "value1"
+        },
+        "status_code": 201,
+        "response_body": {
+            "data": {
+                "key1": "value1"
+            },
+            "message": "This is a POST request"
+        },
+        "response_time": 1.139
+    },
+    {
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/api/test",
+        "payload": null,
+        "status_code": 200,
+        "response_body": {
+            "message": "This is a GET request",
+            "params": {}
+        },
+        "response_time": 0.95
+    },
+    {
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/api/health",
+        "payload": null,
+        "status_code": 200,
+        "response_body": {
+            "status": "healthy"
+        },
+        "response_time": 1.1150000000000002
+    },
+    {
+        "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/api/health",
+        "payload": null,
+        "status_code": 200,
+        "response_body": {
+            "status": "healthy"
+        },
+        "response_time": 2.1020000000000003
+    },
+    {
+        "method": "GET",
+        "url": "http://127.0.0.1:5000/api/health",
+        "payload": null,
+        "status_code": 200,
+        "response_body": {
+            "status": "healthy"
+        },
+        "response_time": 1.526
+    },
+    {
+        "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+]
